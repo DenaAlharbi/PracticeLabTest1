@@ -63,3 +63,38 @@ class LinkedListDriver {
 
     }
 }
+// notes from the linked list file
+/*public static void main(String args[]){ ----------using iterator--------
+    LinkedList<String> list = new LinkedList<>();
+    list.add("Riyadh");list.add("Dammam"); list.add("Jubail");
+    Iterator<String> iterator = list.iterator();
+    while (iterator.hasNext()) {
+        System.out.print(iterator.next() + " ");
+    }
+
+    for(String cityName : list) { --------going through a list-------
+        System.out.print(cityName + " ");
+     }
+
+}*/
+
+/* ------methods in linked lists ---------
+void addLast(E e)
+addFirst(E e)
+void add(int index, E element)
+
+E removeFirst()
+E removeLast()
+E remove(int index)
+boolean removeFirstOccurrence(Object o)
+boolean removeLastOccurrence(Object o)
+
+int indexOf(Object o)
+int lastIndexOf(Object o)
+boolean contains(Object o)
+
+E set(int index, E element)
+Iterator<E> iterator()
+void clear()
+Object[] toArray()
+ */
